@@ -1,0 +1,158 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+/* ----------Styling--------------------------------------- */
+
+  .main-header {
+    background-color: #3f3f3f;
+    background-image: url('../images/blackandwhitebooks.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10px;
+    }
+
+   h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-family: 'lobster', cursive;
+    color: rgba(83, 36, 36, 0.849);
+    text-shadow: 1px 1px 2px rgb(255, 217, 0);
+   }    
+   
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        background: rgba(255,255,255,0.1);
+        border: none;
+        font-size: 16px;
+        height: auto;
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+        background-color: #f0d9c3;
+        color: #8a97a0;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 10px;
+    }
+  
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin: 5px;
+
+    }   
+
+/* -------------layout---------------------------------- */
+
+
+
+
+
+  body {;
+    color: #384047;
+  }
+  
+  form {
+    background:rgb(253, 242, 226);
+  }
+  
+  h2 {
+    padding: 30px 0 30px 0;
+    text-align: center;
+    margin: 0;
+
+  }
+  
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #434443;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #314437;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Philosophe'
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+    
+  }
+  
+  .number {
+    background-color: #8a7565;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 50%;
+  }
+
+  footer {
+      text-align: center;
+      font-family: cursive;
+      font-size: 10px
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    form {
+
+      border-radius: 15px;
+      margin-left: 20% ;
+      margin-right: 20%;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"] {
+     
+
+    }
+
+
+    
+  
+  }

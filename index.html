@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Philosophe|Satisfy" rel="stylesheet">
+    
+    <title>Fignatia Registration</title>
+
+</head>
+<body>
+
+
+        <header class="main-header">
+                    <h1 class="name">Fignatia Books and Treasures</h1>
+            </header>
+
+
+
+    <form action="index.html" method="post">
+        
+        <h2>Membership Sign Up</h2>
+        <!-- ==========================Contact=================================== -->
+        <fieldset>
+          
+          <legend><span class="number">1</span> Contact Information</legend>
+          
+          <label for="name"> Full Name:</label>
+          <input type="text" id="name" name="user_name" placeholder= "Required" >
+         
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" placeholder= "Required">
+          
+          <label for="Phone">Phone Number:</label>
+          <input type="tel" id="phone" name="user_tel" placeholder= "000-000-000">
+
+          <label for="street">Street Address:</label>
+          <input type="text" id="street" name="user_address">
+
+          <label for="city">City:</label>
+          <input type="text" id="city" name="user_city">
+
+          <label for="state">State:</label>
+          <select id="state" name="user_state">
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+
+          <label for="zip">Zip Code:</label>
+          <input type="text" id="zip" name="user_zip">
+          
+          <label>Age:</label>
+          <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
+          <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light">18 or Older</label><br>
+        
+        </fieldset>
+        <!-- ==========================Info=================================== -->
+        <fieldset>
+          
+          <legend><span class="number">2</span> More About You</legend>
+        
+          <label>Favorite Genres:</label>
+            <input type="checkbox" id="fantasy" value="user_fantasy" name="user_genre"><label class="light" for="fantasy">Fantasy/Sci Fi</label><br>
+            <input type="checkbox" id="nonfic" value="user_nonfic" name="user_genre"><label class="light" for="nonfic">Nonfiction</label><br>
+            <input type="checkbox" id="child" value="user_child" name="user_genre"><label class="light" for="child">Childrens</label><br>
+            <input type="checkbox" id="romance" value="user_romance" name="user_genre"><label class="light" for="romance">Romance</label><br>
+            <input type="checkbox" id="self" value="user_self" name="user_genre"><label class="light" for="self">Self-Help Books</label><br>
+            <input type="checkbox" id="young" value="user_young" name="user_genre"><label class="light" for="young">Young Adult</label><br>
+            <input type="checkbox" id="thrill" value="user_thrill" name="user_genre"><label class="light" for="thrill">Thriller/Mystery</label> <br>   
+          
+          
+          <label for="question-1">Why do you want to be a member?:</label>
+          <textarea id="question-1" name="user_question-1"></textarea>
+          
+
+
+
+        </fieldset>
+        <!-- ==========================Perferences=================================== -->
+        <fieldset>
+
+          <legend><span class="number">3</span> Perferences</legend>
+
+
+          <label>Are you interested in any of the following?:</label>
+          <input type="checkbox" id="weekly" value="user_weekly" name="user_pref"><label class="light" for="weekly">Weekly Newsletter</label><br>
+          <input type="checkbox" id="deals" value="user_deals" name="user_pref"><label class="light" for="deals">Deals</label><br>
+          <input type="checkbox" id="stock" value="user_stock" name="user_pref"><label class="light" for="stock">New Stock Update</label><br>
+          <input type="checkbox" id="event" value="user_event" name="user_pref"><label class="light" for="event">Event Updates</label><br>
+          
+          <label>Perfered method of contact:</label>
+          <input type="radio" id="mail" value="mail" name="contact_list"><label for="mail" class="light">Email</label><br>
+          <input type="radio" id="text" value="text" name="contact_list"><label for="text" class="light">Text</label><br>
+         
+          <label for="question-2">Additional Comments:</label>
+          <textarea id="question-2" name="user_question-2"></textarea>
+
+
+        </fieldset>
+          
+        <button type="submit">Sign Up</button>
+        
+      </form>
+      <footer>
+
+       <p>Fignation registration form</p>
+       <p>All infomation given here will only be used for the purpose of store members</p>
+
+      </footer>
+</body>
+</html>
