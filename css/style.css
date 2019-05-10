@@ -12,7 +12,7 @@
 
     .main-header {
         background-color: #3f3f3f;
-        background-image: url('../images/blackandwhitebooks.jpg');
+        background-image: url('../images/coding.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -34,11 +34,13 @@
         margin: 0;
         }
     
-        .tagline {
+    .tagline {
         text-align: center;
+        color: rgba(0, 0, 0, 0.356);
         margin:0;
         padding-bottom: 30px;
         border-bottom: solid black 5px;
+        margin-bottom: 10px
         }
 
     .number {
@@ -55,18 +57,18 @@
         border-radius: 50%;
         } 
     
-        legend {
+    legend {
         font-size: 1.4em;
         margin-bottom: 5px;
         padding-top: 10px;
-        border-top: solid black 2px;
+        border-top: solid black 1px ;
         width: 100%
-    }
+        }
     
     label {
         display: block;
         margin-bottom: 8px;
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 15px;
         font-weight: bold;
         font-family: 'Philosophe'
@@ -103,9 +105,6 @@
             max-width: 30%;
         }
 
-        label#zip {
-            flex-basis: 25%
-        }
 
         form {
             background:rgb(219, 234, 235);
@@ -130,11 +129,9 @@
             border-width: 1px 1px 3px;
             box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
             margin-bottom: 10px;
-
-
         }
 
-        
+
         fieldset {
             margin-bottom: 30px;
             border: none;
@@ -153,7 +150,13 @@
             transition: ease-in .5s;
         }
 
+        ::placeholder{
+            text-align: right;
+        }
 
+        input:focus::-webkit-input-placeholder {
+            opacity: 0;
+        }
 /* ---------------media Q-------------------------------------- */
 
   
@@ -187,6 +190,5 @@
             .contact-zip label {
                 flex-basis: 30%;
               }
-
 
     }
