@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Philosophe|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Philosophe" rel="stylesheet">
     
     <title>Fignatia Registration</title>
 
@@ -18,32 +18,41 @@
                     <h1 class="name">Fignatia Books and Treasures</h1>
             </header>
 
-
-
     <form action="index.html" method="post">
         
         <h2>Membership Sign Up</h2>
+        <p class= "tagline">Get ready to enter the world of imagination as you sign up to become a member of the Fignatia community</p>
         <!-- ==========================Contact=================================== -->
         <fieldset>
           
           <legend><span class="number">1</span> Contact Information</legend>
-          
+        
+        <div class= contact>
           <label for="name"> Full Name:</label>
-          <input type="text" id="name" name="user_name" placeholder= "Required" >
-         
-          
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email" placeholder= "Required">
-          
-          <label for="Phone">Phone Number:</label>
-          <input type="tel" id="phone" name="user_tel" placeholder= "000-000-000">
+          <input required type="text" id="name" name="user_name" placeholder= "Required" >
+        </div> 
 
+        <div class= contact> 
+          <label for="mail">Email:</label>
+          <input required type="email" id="mail" name="user_email" placeholder= "Required">
+        </div>  
+          
+        <div class= contact>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="user_tel" placeholder= "000-000-000">
+        </div>
+
+        <div class= contact> 
           <label for="street">Street Address:</label>
           <input type="text" id="street" name="user_address">
+        </div> 
 
+        <div class= contact>
           <label for="city">City:</label>
           <input type="text" id="city" name="user_city">
+        </div>
 
+        <div class= "contact">
           <label for="state">State:</label>
           <select id="state" name="user_state">
                 <option value="AL">Alabama</option>
@@ -98,9 +107,12 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select>
-
+        </div>
+        
+        <div class= "contact-zip">
           <label for="zip">Zip Code:</label>
           <input type="text" id="zip" name="user_zip">
+        </div>
           
           <label>Age:</label>
           <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
@@ -152,8 +164,10 @@
         </fieldset>
           
         <button type="submit">Sign Up</button>
+        <button type="reset" class= "cancel">Cancel</button>
         
       </form>
+      
       <footer>
 
        <p>Fignation registration form</p>
