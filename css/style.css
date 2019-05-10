@@ -90,7 +90,7 @@
             margin: 0;
             padding: 10px;
             width: 100%;
-            background-color: #a6cddd;
+            background-color: #d9e4e9;
             color: #8a97a0;
             box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
             margin-bottom: 10px;
@@ -107,7 +107,7 @@
 
 
         form {
-            background:linear-gradient(to bottom, #90bdcc 0%, #546783 100%);
+            background:linear-gradient(to bottom, #afccd6 0%, #73849e 100%);
         }
         
         
