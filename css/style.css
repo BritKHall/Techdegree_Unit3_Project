@@ -78,7 +78,7 @@
     /* -------------Form elements---------------------------------- */
 
         form {
-            background:linear-gradient(to bottom, #c4c1c0 , #3a3a3a );
+            background:linear-gradient(to bottom, #d8d5d3 , #f6f7a23b, #3d3d3d);
         }
     
         input[type="text"],
