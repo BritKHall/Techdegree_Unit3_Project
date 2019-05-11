@@ -8,6 +8,7 @@
         font-family: sans-serif;
         font-size: 10px
         }
+        
 /* ----------Lables and Header--------------------------------------- */
 
     .main-header {
@@ -76,7 +77,9 @@
 
     /* -------------Form elements---------------------------------- */
 
-
+        form {
+            background:linear-gradient(to bottom, #c4c1c0 , #3a3a3a );
+        }
     
         input[type="text"],
         input[type="password"],
@@ -90,7 +93,7 @@
             margin: 0;
             padding: 10px;
             width: 100%;
-            background-color: #d9e4e9;
+            background-color: #c5c4b8;
             color: #8a97a0;
             box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
             margin-bottom: 10px;
@@ -103,41 +106,19 @@
 
         input#zip  {
             max-width: 30%;
-        }
-
-
-        form {
-            background:linear-gradient(to bottom, #afccd6 0%, #73849e 100%);
-        }
-        
+        }  
         
         select {
             padding: 6px;
             height: 32px;
             border-radius: 2px;
         }
-        
-        button {
-            padding: 19px 39px 18px 39px;
-            color: #FFF;
-            background-color: #93aa93;
-            font-size: 18px;
-            text-align: center;
-            border-radius: 10px;
-            width: 100%;
-            border: 1px solid #314437;
-            border-width: 1px 1px 3px;
-            box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-            margin-bottom: 10px;
-        }
-
 
         fieldset {
             margin-bottom: 30px;
             border: none;
         }
-        
-        
+                
         label.light {
             font-weight: 300;
             display: inline;
@@ -156,7 +137,23 @@
 
         input:focus::-webkit-input-placeholder {
             opacity: 0;
+        }    
+
+        button {
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            background-color: #539b53;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 10px;
+            width: 100%;
+            border: 1px solid #314437;
+            border-width: 1px 1px 3px;
+            box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+            margin-bottom: 10px;
         }
+
+
 /* ---------------media Q-------------------------------------- */
 
   
